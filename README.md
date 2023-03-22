@@ -1,6 +1,6 @@
 # Product Preview Card
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+[Design preview for the Product preview card component coding challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
 ## The challenge
 

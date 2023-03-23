@@ -1,0 +1,48 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Fraunces');
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.card img{
+    width: 250px;
+    border-radius: 10px 0 0 10px;
+}
+
+.card-content{
+    width: 250px;
+    padding: 20px;
+}
+
+.card-product{
+    font-family: 'Montserrat';
+    font-size: medium;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.card-product-name{
+    font-family: 'Fraunces';
+    font-size: larger;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.card-product-info{
+    font-family: 'Montserrat';
+    font-size: medium;
+    font-weight: 500;
+}

@@ -28,6 +28,7 @@ body{
 }
 
 .card-product{
+    color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     font-size: medium;
     font-weight: 500;
@@ -35,6 +36,7 @@ body{
 }
 
 .card-product-name{
+    color: hsl(212, 21%, 14%);
     font-family: 'Fraunces';
     font-size: 40px;
     font-weight: 700;
@@ -42,7 +44,42 @@ body{
 }
 
 .card-product-info{
+    color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     font-size: medium;
     font-weight: 500;
+}
+
+.price{
+    vertical-align: middle;
+}
+
+.price-final{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces';
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.price-original{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    vertical-align: middle;
+}
+
+button{
+    width: 235px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }

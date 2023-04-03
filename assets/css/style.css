@@ -11,15 +11,15 @@ body{
 }
 
 .card{
+    width:600px;
     background-color: white;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
 }
 
-.card img{
-    width: 300px;
-    border-radius: 10px 0 0 10px;
+.product-image{
+    border-radius: 10px 0 0 0;
 }
 
 .card-content{
@@ -84,12 +84,10 @@ button{
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     .card {
         width: 300px;
         flex-direction: column;
     }
-    .card img{
-        border-radius: 10px 10px 0 0;
-    }
+
 }

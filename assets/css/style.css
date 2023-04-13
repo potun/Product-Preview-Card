@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@200..900&display=swap');
 
-body{
+body {
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
     display: flex;
@@ -10,25 +10,28 @@ body{
     height: 100vh;
 }
 
-.card{
-    width:600px;
+.card {
+    width: 600px;
     background-color: white;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
 }
 
-.product-image{
+.product-image {
     width: 300px;
     border-radius: 10px 0 0 10px;
 }
 
-.card-content{
+.card-content {
     width: 300px;
     padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-.card-product{
+.card-product {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     font-size: medium;
@@ -37,26 +40,27 @@ body{
     letter-spacing: 4px;
 }
 
-.card-product-name{
+.card-product-name {
+    margin: 20px 0;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces';
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: capitalize;
 }
 
-.card-product-info{
+.card-product-info {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
     font-size: medium;
     font-weight: 500;
 }
 
-.price{
+.price {
     margin: 10px 0;
 }
 
-.price-final{
+.price-final {
     vertical-align: middle;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces';
@@ -64,7 +68,7 @@ body{
     font-weight: 700;
 }
 
-.price-original{
+.price-original {
     vertical-align: middle;
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
@@ -74,7 +78,7 @@ body{
     vertical-align: middle;
 }
 
-button{
+button {
     width: 235px;
     background-color: hsl(158, 36%, 37%);
     color: white;
@@ -89,6 +93,7 @@ button{
 }
 
 button:hover {
+    width 100%;
     background-color: hsl(158, 36%, 20%);
 }
 
@@ -97,6 +102,7 @@ button:hover {
         width: 300px;
         flex-direction: column;
     }
+
     .product-image {
         width: 300px;
         border-radius: 10px 10px 0 0;

@@ -12,6 +12,7 @@ body {
 
 .card {
     width: 600px;
+    height: 450px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -29,6 +30,9 @@ body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card-product {
@@ -41,26 +45,23 @@ body {
 }
 
 .card-product-name {
-    margin: 20px 0;
     color: hsl(212, 21%, 14%);
     font-family: 'Fraunces';
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 900;
     text-transform: capitalize;
 }
 
 .card-product-info {
     color: hsl(228, 12%, 48%);
     font-family: 'Montserrat';
-    font-size: medium;
+    font-size: 14px;
     font-weight: 500;
-}
-
-.price {
-    margin: 10px 0;
+    line-height: 1.5;
 }
 
 .price-final {
+    margin-right: 20px;
     vertical-align: middle;
     color: hsl(158, 36%, 37%);
     font-family: 'Fraunces';
@@ -79,12 +80,12 @@ body {
 }
 
 button {
-    width: 235px;
+    width: 100%;
     background-color: hsl(158, 36%, 37%);
     color: white;
     font-family: 'Montserrat';
-    font-weight: 500;
-    padding: 10px;
+    font-weight: 700;
+    padding: 15px;
     border: none;
     border-radius: 10px;
     display: inline-flex;
@@ -99,13 +100,19 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     .card {
-        width: 300px;
+        width: 92vw;
+        height: 92vh;
         flex-direction: column;
     }
 
     .product-image {
-        width: 300px;
+        width: 100%;
         border-radius: 10px 10px 0 0;
+    }
+
+    .card-content{
+        width: 92vw;
+        height: 92vh;
     }
 
 }
